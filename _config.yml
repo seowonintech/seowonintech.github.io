@@ -2,14 +2,14 @@
 title: Seowonintech Tech Blog
 header-img: img/home-bg.jpg
 email: tshyeon@seowonintech.co.kr
-copyright_name: Your/Project/Corporate Name
+copyright_name: Seowonintech
 description: "seowonintech technology blog" # meta data description
 baseurl: 
 url: "https://seowonintech.github.io"
 twitter_username: 
 github_username:  seowonintech
 facebook_username:  
-email_username:  tshyeon@seowonintech.co.kr
+email_username:
 
 # Google Analytics
 # To enable google analytics, uncomment below line with a valid Google Tracking ID
