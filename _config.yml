@@ -1,17 +1,25 @@
 # Site settings
-title: Smart Material Theme
-email: your-email@domain.com
-description: Slick Material Design theme for Jekyll powered by Material Design Lite.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ssokurenko.github.io" # the base hostname & protocol for your site
-copyright: '&copy; 2015-2016 Smart Material Theme'
+title: Seowonintech Tech Blog
+header-img: img/home-bg.jpg
+email: tshyeon@seowonintech.co.kr
+copyright_name: Your/Project/Corporate Name
+description: "seowonintech technology blog" # meta data description
+baseurl: 
+url: "https://seowonintech.github.io"
+twitter_username: 
+github_username:  seowonintech
+facebook_username:  
+email_username:  tshyeon@seowonintech.co.kr
+
+# Google Analytics
+# To enable google analytics, uncomment below line with a valid Google Tracking ID
+# google_tracking_id:
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 5
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
 
-# Custom theme could be generated at: https://getmdl.io/customize/index.html
-material_theme: blue-deep_orange
-
-# Google Analytics account ID (UA-XXXXXXXX-X)
-
-google-analytics-ua: UA-84475574-1
+gems: [jekyll-paginate, jekyll-feed]
